@@ -1,4 +1,7 @@
-require "test_helper"
+:x
+
+
+equire "test_helper"
 
 class AdminMailingsSummaryReportTest < ActiveSupport::TestCase
   test "daily mailings summary" do
