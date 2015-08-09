@@ -18,6 +18,8 @@ class AdminMailingsSummaryReportTest < ActiveSupport::TestCase
   
   test “” do
   end
+
+  test "My new test" do
 end
 
 
