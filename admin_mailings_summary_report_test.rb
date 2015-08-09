@@ -15,4 +15,9 @@ class AdminMailingsSummaryReportTest < ActiveSupport::TestCase
     report = AdminMailingsSummaryReport::Monthly.new
     assert report.rows.count > 0
   end
+  
+  test “” do
+  end
 end
+
+
