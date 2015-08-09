@@ -1,6 +1,6 @@
 require "test_helper"
 
-class AdminOrderBatchSalesReportTest < ActiveSupport::TestCase
+class AdminOrderBatchSalesReportTest2 < ActiveSupport::TestCase
   test "report" do
     order_batch = order_batches(:fulfilled)
     rows = AdminOrderBatchSalesReport.new(order_batch).rows
