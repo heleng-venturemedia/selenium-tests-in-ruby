@@ -15,4 +15,7 @@ class AdminOrderBatchSalesReportTest2 < ActiveSupport::TestCase
     assert row.platform_earnings_amount > 0
     assert row.marketer_earnings_amount > 0
   end
+    test "report" do
+	order batcg = order_batches(:fulfilled)
+	do
 end
