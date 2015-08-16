@@ -15,10 +15,13 @@ class AdminOrderBatchSalesReportTest2 < ActiveSupport::TestCase
     assert row.platform_earnings_amount > 0
     assert row.marketer_earnings_amount > 0
   end
+<<<<<<< HEAD
     test "report" do
 	order batcg = order_batches(:fulfilled)
 	do
 	
 	test "report3" do
 	do
+=======
+>>>>>>> parent of e929fac... Merge branch '100-new-feature'
 end
