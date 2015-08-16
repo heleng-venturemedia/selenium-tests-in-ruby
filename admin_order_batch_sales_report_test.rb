@@ -18,4 +18,7 @@ class AdminOrderBatchSalesReportTest2 < ActiveSupport::TestCase
     test "report" do
 	order batcg = order_batches(:fulfilled)
 	do
+	
+	test "report3" do
+	do
 end
